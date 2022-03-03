@@ -17,6 +17,6 @@ export default defineConfig({
     outDir: 'docs',
   },
   base: process.env.NODE_ENV === 'production'
-    ? 'https://theiviproject.github.io/website/'
+    ? '/website/'
     : '/',
 })
